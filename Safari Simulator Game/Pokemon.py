@@ -2,7 +2,7 @@ import tkinter as tk
 import random
 
 
-# FIRST: Implement and test your Pokemon class below
+# Pokemon Class. Used to hold all the pokedex info of each Pokemon.
 class Pokemon:
     def __init__(self, dex, species, catch_rate, speed):
         self.species = species
@@ -13,8 +13,7 @@ class Pokemon:
     def __str__(self):
         return self.species
 
-
-# NEXT: Complete the class definition provided below
+# Class that sets up game.
 class SafariSimulator(tk.Frame):
     def __init__(self, master=None):
 
